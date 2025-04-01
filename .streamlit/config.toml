@@ -1,10 +1,18 @@
 [theme]
-primaryColor = "#4682B4"
-backgroundColor = "#0E1117"
-secondaryBackgroundColor = "#1A1C24"
-textColor = "#FFFFFF"
+# Primary accent color for interactive elements
+primaryColor = "#4B56D2"  # A vibrant blue
+
+# Background color for the main content area
+backgroundColor = "#0E1117"  # Dark background
+
+# Background color for sidebar and most interactive widgets
+secondaryBackgroundColor = "#1A1C24"  # Slightly lighter than background
+
+# Color used for almost all text
+textColor = "#FFFFFF"  # White text
+
+# Font family for all text in the app, except code blocks
 font = "sans serif"
 
 [server]
 enableCORS = false
-enableXsrfProtection = false
